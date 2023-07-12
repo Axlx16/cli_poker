@@ -1,0 +1,5 @@
+################
+#### hand.h ####
+################
+==> It is not inefficient to declare a STACK allocated array of length
+        length 2, since in the array there are only pointers (each 8-bytes of mem) 

@@ -1,16 +1,12 @@
-#include <string>
+#include "player.h"
 
-
-class Player {
+class Game {
     private: 
-        std::string const& name; 
-        int money;
-        int pos;        
-
+        int bb;          
+        int sb;            
+        int num_players;
+        Player **players; 
+    
     public:
-        std::string getName();
-        int getMoney();
-        int getPos();
-        int nextPos();
         
 };
